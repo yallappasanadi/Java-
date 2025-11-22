@@ -1,0 +1,27 @@
+class React
+{
+    static void area()
+    {
+       int w= 8;
+       int h=10;
+       
+       int res = w*h;
+       
+       System.out.println(res);
+    
+    
+    }
+
+
+}
+
+class Call3
+{
+    public static void main(String[] args)
+    {
+       
+         Raecr.area();
+    
+    }
+
+}

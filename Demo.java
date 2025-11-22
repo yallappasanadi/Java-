@@ -1,15 +1,25 @@
-class Demo
+class Circle
 {
-
-public static void main(String[] args)
-{
-   System.out.println(10);
-   System.out.println(5.5);
-   System.out.println("HELLO");
-   System.out.println('A');
-   System.out.println(true);
   
+  static double area(int r)
+  {
+     final double pi = 3.142;
+            double res = pi*r*r;
+	    
+	    
+	    return res;
+  
+  }
 
 }
 
+class Demo
+{
+    public static void main(String[] args)
+    {  
+    
+           double x= Circle.area(5);
+              
+	      System.out.println(x);
+	      }
 }

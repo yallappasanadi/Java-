@@ -1,0 +1,37 @@
+class Sample
+{
+  int a=10;
+}
+
+class Demo extends Sample
+{
+ void area()
+ {
+ System.out.println("HI");
+ }
+}
+
+class Tester extends Demo
+{
+   int c=100;
+
+}
+
+class Multilevel
+{
+     public static void main(String[] args)
+     {  
+     
+     
+        Tester t1 = new Tester();
+	
+	     System.out.println(t1.a);
+	   t1.area();
+	   System.out.println(t1.c);
+         
+     
+     
+     
+     }
+
+}

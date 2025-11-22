@@ -1,0 +1,21 @@
+class Parall
+{
+    public static int area(int b,int h)
+    {
+       int res = b*h;
+       
+       return res;
+    
+    
+    }
+    
+    public static void(String[] args)
+    {
+      
+        int x = area(5,10);
+	 System.out.println(x);
+     
+    }
+
+
+}

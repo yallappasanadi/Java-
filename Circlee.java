@@ -1,0 +1,21 @@
+class Circlee
+{
+   static double area(int r)
+   {
+     final double pi = 3.142;
+           double res = pi*r*r;
+	   
+	   
+	return res;
+   
+   
+   }
+   
+   public static void main(String[] args)
+   {
+       double x = area(5);
+	   System.out.println(x);
+   
+   }
+
+}
