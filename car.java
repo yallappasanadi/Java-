@@ -1,0 +1,15 @@
+class Car
+{
+  public static void main(String[] args)
+  {
+    String name = "FORTUNER";
+    String type = "PETROL";
+    int cost = 200000;
+    
+    System.out.println(name+" "+type+" "+cost);
+  
+  
+  }
+
+
+}
